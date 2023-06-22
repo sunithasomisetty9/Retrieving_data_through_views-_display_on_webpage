@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage table</title>
+</head>
+<body>
+    <center>
+        <h1>Webpage Table</h1>
+        <table border="4px">
+            <tr>
+                <th>topic_name</th>
+                <th>name</th>
+                <th>url</th>
+            </tr>
+            {% for j in webpages %}
+                <tr>
+                    <td>{{j.topic_name}}</td>
+                    <td>{{j.name}}</td>
+                    <td>{{j.url}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
