@@ -12,15 +12,11 @@
             <tr>
                 <th>topic_name</th>
             </tr>
+            {% for i in topics %}
             <tr>
-                <td>{{topics}}</td>
-                
+                <td>{{i.topic_name}}</td>
             </tr>
-            <tr>
-                <td>{{tdata}}</td>
-            </tr>
-            
-            
+            {% endfor %}
         </table>
     </center>
 </body>
