@@ -14,11 +14,11 @@
                 <th>name</th>
                 <th>url</th>
             </tr>
-            {% for j in webpages %}
+            {% for i in wd %}
                 <tr>
-                    <td>{{j.topic_name}}</td>
-                    <td>{{j.name}}</td>
-                    <td>{{j.url}}</td>
+                    <td>{{i.topic_name}}</td>
+                    <td>{{i.name}}</td>
+                    <td>{{i.url}}</td>
                 </tr>
             {% endfor %}
         </table>

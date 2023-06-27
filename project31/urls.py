@@ -22,4 +22,6 @@ urlpatterns = [
     path('display_topic_table/',display_topic_table,name='display_topic_table'),
     path('display_webpage_table/',display_webpage_table,name='display_webpage_table'),
     path('display_access_record/',display_access_record,name='display_access_record'),
+    path('update_webpages/',update_webpages,name='update_webpages'),
+    path('delete_webpages/',delete_webpages,name='delete_webpages'),
 ]
